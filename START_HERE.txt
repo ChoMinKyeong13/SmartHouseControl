@@ -1,0 +1,10 @@
+SMART HOUSE / FIXED PROJECT
+
+1. Extract all files to C:\SmartHouseFixed\ (not inside zip).
+2. Open SmartHouseControl.csproj directly in Visual Studio 2022.
+3. Right-click project > Restore NuGet Packages (or Tools > Command Line > Developer PowerShell: dotnet restore).
+4. Press F5.
+5. Test demo mode first.
+6. Arduino code: Arduino_SmartHouse\Arduino_SmartHouse.ino
+
+Requires .NET 8 Windows Forms workload and internet to restore System.IO.Ports 8.0.0.

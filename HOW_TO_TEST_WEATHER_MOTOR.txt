@@ -1,0 +1,16 @@
+SmartHouse 날씨 테스트 실제 모터 연동 수정본
+
+1. ZIP을 영문 경로(예: C:\SmartHouseDemo)에 풀기
+2. SmartHouseControl.csproj 파일을 Visual Studio에서 열기
+3. F5 실행
+4. Arduino IDE 시리얼 모니터를 닫고 Arduino MEGA의 COM 포트 연결
+5. [데모 모드]와 [지붕 자동 제어] 둘 다 체크
+6. [비 내림 시뮬레이션] 체크: 지붕 닫힘 명령
+7. 체크 해제: 지붕 열림 명령
+
+주의:
+- 데모 모드는 실제 날씨가 아니라 가상 비/맑음 값으로 모터 제어를 시험합니다.
+- 실사용 시 데모 체크를 해제하고 '날씨 즉시 조회'를 누르세요.
+- Arduino에는 ROOF_OPEN / ROOF_CLOSE를 처리하는 Arduino_SmartHouse.ino를 업로드해야 합니다.
+- 이 프로젝트의 C# 앱은 Arduino 연결 후 약 2.5초 뒤 초기 명령을 보냅니다.
+- 종이 지붕이 걸리면 즉시 전원을 끄세요.
